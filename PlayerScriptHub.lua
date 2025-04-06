@@ -82,7 +82,7 @@ local BlrButton1 = HubTab:CreateButton({
 local Bss = HubTab:CreateSection("Bee Swarm Simulator")
 
 local BssButton1 = HubTab:CreateButton({
-   Name = "Atlasa",
+   Name = "Atlas",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris8889/atlasbss/main/script.lua"))()
    end,

@@ -178,3 +178,13 @@ local ForsakenButton2 = HubTab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua"))()
    end,
 })
+
+
+local Misc = HubTab:CreateSection("Misc")
+
+local infYield = HubTab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})

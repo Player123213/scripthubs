@@ -127,6 +127,13 @@ local FischButton2 = HubTab:CreateButton({
    end,
 })
 
+local FischButton3 = HubTab:CreateButton({
+   Name = "Alchemy Hub (REQUIRES KEY)",
+   Callback = function()
+   loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+   end,
+})
+
 local Rivals = HubTab:CreateSection("Rivals")
 
 local RivalsButton1 = HubTab:CreateButton({

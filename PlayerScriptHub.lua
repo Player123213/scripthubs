@@ -204,3 +204,20 @@ local infYield = HubTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
    end,
 })
+
+local Misc = HubTab:CreateSection("Phantom Forces")
+
+local Wapus = HubTab:CreateButton({
+   Name = "Wapus",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/iRay888/wapus/refs/heads/main/loader.lua"))()
+   end,
+})
+
+local Homohack = HubTab:CreateButton({
+   Name = "Homohack",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/refs/heads/main/loader.lua"))()
+   end,
+})
+

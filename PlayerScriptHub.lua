@@ -205,7 +205,14 @@ local infYield = HubTab:CreateButton({
    end,
 })
 
-local Misc = HubTab:CreateSection("Phantom Forces")
+local FemboyHub = HubTab:CreateButton({
+   Name = "Femboy Hub",
+   Callback = function()
+   writefile("Rayfield/Key System/Key123.rfld","NoHomo");loadstring(game:HttpGet("https://raw.githubusercontent.com/LisSploit/FemboysHubBoosr/2784d6c4ede4340ad9af4865828d915ffc26c7bb/Criminality"))()
+   end,
+})
+
+local PhantomForces = HubTab:CreateSection("Phantom Forces")
 
 local Wapus = HubTab:CreateButton({
    Name = "Wapus",
